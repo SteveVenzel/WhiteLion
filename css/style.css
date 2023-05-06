@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eef108;
+  font-family: "Indie Flower", cursive;
+}
+
+/* Header */
+.header {
+  background-color: #9f4fa2;
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.logo img {
+  width: 80px;
+  height: 50px;
+}
+
+.menu {
+  float: right;
+  margin: 24px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu a {
+  color: #080402;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20px;
+}
+
+/* Banner */
+.banner {
+  background-image: url(../img/Whitelion1.jpg);
+  background-size: cover;
+  height: 550px;
+}
+
+.banner h1 {
+  text-align: right;
+  font-size: 150px;
+  padding: 150px 50px;
+  color: #4f98a2;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+/* Works */
+.obras {
+  margin: auto;
+  width: auto;
+}
+
+.obras .tdObras {
+  padding: 50px;
+}
+
+.botonObras {
+  background-image: url(../img/Youtube.png);
+  background-size: cover;
+  border-radius: 90px;
+  height: 80px;
+  line-height: 55px;
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+}
+
+.botonObras:hover {
+  opacity: 0.9;
+}
+
+.botonObras a {
+  color: #4e9110;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Biography */
+.biografia {
+  background-color: #576d96;
+  color: #ffffff;
+  padding: 20px 100px 70px 100px;
+  text-align: justify;
+}
+
+.biografia h2 {
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.biografia p {
+  font-size: 30px;
+}
+
+/* Awards */
+.premios {
+  padding: 10px;
+  text-align: center;
+}
+
+.premios table {
+  padding: 30px 100px;
+}
+
+.premios h2 {
+  font-size: 45px;
+}
+
+.premios td {
+  font-size: 25px;
+  padding: 0px 20px;
+  text-align: left;
+}
+
+.premios span {
+  background-color: #0400ff;
+  border: 2px solid #ff0077;
+  padding: 2px 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #95005c;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 20px 100px;
+  text-align: center;
+}
